@@ -31,6 +31,9 @@
         ["addMessenger", ["@world_messenger"]],
         ["addMessenger", ["@exclamation_messenger"]]
       ]
+    },
+    "mock_class": {
+      "class": "./MockClass.js"
     }
   }
 }

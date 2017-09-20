@@ -18,6 +18,7 @@ container = ServiceContainer.buildContainer(__dirname);
 helloMessenger       = container.get('hello_messenger');
 worldMessenger       = container.get('world_messenger');
 exclamationMessenger = container.get('exclamation_messenger');
+mockClass = container.get('mock_class');
 
 // Output messags to the screen.  The first prints "hello" the second prints "world"
 // and the last prints the "!" character
@@ -27,3 +28,4 @@ exclamationMessenger = container.get('exclamation_messenger');
 helloMessenger.printMessage();       // Print "hello "
 worldMessenger.printMessage();       // Print "world"
 exclamationMessenger.printMessage(); // Print "!"
+mockClass.printMessage();
